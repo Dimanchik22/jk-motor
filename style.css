@@ -1,0 +1,181 @@
+body::-webkit-scrollbar {
+  width: 8px;               /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 42, 42);    /* цвет плашки */     
+}
+@font-face {
+  font-family:'Roboto',sans-serif ;
+  src:local('Roboto'), url(./fonts/Roboto) format('truetype');
+}
+*{
+  font-family: 'Roboto',sans-serif;
+  text-shadow: 1.5px -1.5px 0.5px #000;
+}
+#row{
+    background:url(img/домишко.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    transition: 1s;
+  }
+a:hover{
+    color:rgb(255, 95, 95) !important;
+
+}
+button:hover{
+    background-color: rgb(255, 0, 0, 0.4)!important;
+   border-color:rgb(255, 0, 0,.4) !important;
+   color:rgba(255, 255, 255, 0.6) !important;
+}
+#opasity{
+  background-color: rgb(255, 0, 0,.4);
+  color: white;
+  height: 1000px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+#foto{
+  height:300px;
+  width: 600px;
+  margin: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.row .box {
+
+  background-image: url(img/1.jpg);
+}
+
+.row .box2 {
+  background-image: url(img/2.jpg);
+
+}
+
+.row .box3 {
+  background-image: url(img/3.jpg);
+}
+.container1{
+align-items: center;
+}
+
+.box,
+.box2,
+.box3 {
+  
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 30px 30px;
+  background: #000;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  z-index: 1;
+  box-shadow: 0px 0px 25px #555;
+}
+.img1{
+  background-image:url(./img/alfa.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 90px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+  margin-top: -30px;
+}
+.img1:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.img2{
+  background-image:url(./img/atb.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 50px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+}
+.img2:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.img3{
+  background-image:url(./img/halva.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 50px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+}
+.img3:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.img4{
+  background-image:url(./img/pochta.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 50px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+}
+.img4:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.img5{
+  background-image:url(./img/sber.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 50px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+
+}
+.img5:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+.img6{
+  background-image:url(./img/sovok.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 70px;
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+
+}
+.img6:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+
